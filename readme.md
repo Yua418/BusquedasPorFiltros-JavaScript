@@ -18,6 +18,7 @@ La fucion que muestra los autos de la base de datos esperara a que todo el conte
 12. **const puertas**:  Selecciona una etiqueta `select` con el id *puertas*.
 13. **const transmision**:  Selecciona una etiqueta `select` con el id *transmision*.
 14. **const color**:  Selecciona una etiqueta `select` con el id *color*.
+15. **const noResultado**: Variable utilizada por la funcion `noResultado` para introducir el mensaje de error en el HTML.
 
 ## Funciones y ejecucion 
 1. **mostrarAutos()**: Esta funcion toma los datos de la "base de datos" y los muestra mediante la variable `const resultado`. La funcion contiene un iterador `.forEach` que revisa cada elemento, luego crea una etiqueta `P` con los datos del vehiculo y los introduce en la variable seleccionada.
