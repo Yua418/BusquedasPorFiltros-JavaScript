@@ -30,3 +30,4 @@ La fucion que muestra los autos de la base de datos esperara a que todo el conte
 8. **filtrarPuertas()**: Filtra los autos por numero de puertas.
 9. **filtrarTransmision()**: Filtra los autos por tipo de Transmision.
 10. **filtrarColor()**: Filtra los autos por color.
+11. **noResultado()**: Crea un mensaje de error en caso de que no se encuentren resultados.
